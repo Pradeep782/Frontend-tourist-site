@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradeep's tourism</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/pradeep.css">
+<style>
+    body {
+        font-family: 'Mulish', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/dawn-190055_1280.jpg.jpg');
+        height: 3000px;
+
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        border: 2px solid blue;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 4px;
+        display: inline-block;
+        border: 2px solid green;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 12px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 3px 13px;
+        padding: 3px 13px;
+        color: hotpink;
+        border: 2px solid red;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        color: grey;
+    }
+
+    .container {
+        border: 2px solid green;
+        margin: 50px 70px;
+        padding: 10px 10px;
+        width: 33%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+
+    }
+
+    .formgroup input {
+        text-align: center;
+
+        width: 300px;
+        padding: 6px;
+        border: 2px solid green;
+        border-radius: 10px;
+        margin: 6px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 20%;
+        margin: 2px auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="left">
+                <img width="50" height="50" src="img/TRAVEL_TOURISM_LOGO-02.jpg">
+
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Tourism services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button><button class="btn">email us</button>
+
+        </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3>Join the best tourist consultant now </h3>
+        <form action="backend.php">
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your name">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your gender">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your age">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your locality">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your phonenumber">
+
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="Enter your email">
+
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
